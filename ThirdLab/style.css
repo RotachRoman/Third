@@ -1,0 +1,114 @@
+body {
+	font-family: 'San Francisco', San Francisco, serif;
+	font-size: 11pt; /* Размер основного шрифта в пунктах  */
+	background-color: #f0f0f0; /* Цвет фона веб-страницы */
+	color: #333; /* Цвет основного текста */ 
+	background-image: url(https://i.pinimg.com/originals/0a/72/9d/0a729d3aefd8519d95874c8073d5d2d2.jpg);
+   background-size: 100%; /* Современные браузеры */
+	background-size: cover;
+ }
+
+
+ 
+
+ h1 {
+	color: #a52a2a; /* Цвет заголовка */
+	font-size: 24pt; /* Размер шрифта в пунктах */
+	font-family: 'San Francisco', San Francisco, serif;
+	font-weight: normal; /* Нормальное начертание текста  */
+ }
+ h1.style {
+	color: rgb(0, 0, 0); /* Цвет заголовка */
+	font-size: 24pt; /* Размер шрифта в пунктах */
+	font-family: 'San Francisco', San Francisco, serif;
+	font-weight: bold; /* Нормальное начертание текста  */
+ }
+ p.Headings{
+	 font-family: 'San Francisco', San Francisco, serif;
+	 font-size: 20pt;
+	 font-weight: bold;
+	 margin-right: 10%; /* Отступ справа */
+    margin-left: 10%; /* Отступ слева */
+ }
+
+ p.Small_headers{
+	font-family: 'San Francisco', San Francisco, serif;
+	font-size: 19pt;
+	font-weight: bold;
+	margin-right: 10%; /* Отступ справа */
+	margin-left: 10%; /* Отступ слева */
+}
+
+p.Ios_developer{
+	font-family: 'San Francisco', San Francisco, serif;
+	font-size: 16pt;
+	font-weight: bold;
+	margin-right: 10%; /* Отступ справа */
+	margin-left: 10%; /* Отступ слева */
+}
+ p.Plain_text{
+	font-family: 'San Francisco', San Francisco, serif;
+	font-size: 14pt;
+	margin-right: 10%; /* Отступ справа */
+   margin-left: 10%; /* Отступ слева */
+ }
+
+p.Little_text{
+	font-family: 'San Francisco', San Francisco, serif;
+	font-size: 14pt;
+    margin-top: 1
+	margin-right: 10%; /* Отступ справа */
+   margin-left: 10%; /* Отступ слева */
+ }
+
+ p.right{
+	 float: right;
+	 margin-right: 4.5%; /* Отступ справа */
+ }
+ footer {
+	font-family: 'San Francisco', San Francisco, serif;
+	font-size: 14pt;
+	left: 0; bottom: 0; /* Левый нижний угол */
+	padding: 3px; /* Поля вокруг текста */
+/*	background: #e8eef1;  Цвет фона */
+	color: rgb(0, 0, 0); /* Цвет текста */
+	width: 100%; /* Ширина слоя */
+  }
+
+
+
+a.botr{
+  background:#fff;
+  width:150px;
+  display:block;
+  height:28px;
+  padding-top:19px;
+  border:1px solid #000;
+   margin: 20px auto;
+  font-family: 'Dosis', sans;
+  font-size: 14px;
+  font-weight:200;
+  color:#000;
+  text-transform:uppercase;
+  text-decoration:none;
+  text-align:center;
+  opacity:.8;
+  letter-spacing: 1px;
+    -webkit-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+   -moz-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+     -o-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+        transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
+}
+a.botr:hover{
+  width:150px;
+  height:28px;
+  padding-top:19px;
+  border:1px solid teal;
+  margin: 20px auto;
+  opacity:1;
+  letter-spacing: 4px;
+  -webkit-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+   -moz-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+     -o-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+        transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <title>Summary</title>
+  <meta charset="utf-8">
+  <style>
+
+  </style>
+  <link rel="stylesheet" href="style.css">
+ </head>
+    
+ <body>
+	<center>
+		  <h1 class = "style">Summary</h1>
+		  <p><img src=".\myPhoto.jpg"  width="480" height="640"></p>
+	</center>
+  <p class = "Small_headers">Ротач Роман Евгеньевич</p>
+  <p class = "Plain_text" align="justify">
+	Мужчина, 20 лет, родился 15 августа 2000, <br>
+    Проживаю в Москве, <br>
+    Гражданство: Российская Федерация. <br>
+    <p class = "Ios_developer">IOS-разработчик</p>
+     <p class = "Little_text" align="justify">
+        Полная, частичная занятость <br>
+		</p>
+<!--     </p>-->
+    
+    
+     <p class = "Headings">Образование</p>
+    
+	<p class = "Plain_text" align="justify">
+	Московский государственный технологический университет “Станкин”, факультет ИИСТ, направление 09.03.01, Информатика и вычислительная техника. <br>
+Неоконченное высшее образование, дневная / очная форма, 2022 <br><br>
+    (За успехи и старания и проявления себя в 2020 году перевелся с платной на бюджетную основу обучения) <br>
+
+	</p>
+	
+	  <p class = "Headings">
+		Знания и навыки
+	</p>
+  <p class = "Plain_text" align="justify">
+	Профессиональные навыки:<br>
+
+•   знание обьектно ориентированного языка Swift:<br>
+•	Фреймворк UIKit,<br>
+•	Разработка приложения на основе UITableView,<br>
+•	Асинхронное и синхронное программирование,<br>
+•	Работа с API,<br>
+•	Архитектуры MVC,<br>
+•	Принципы SOLID,<br>
+•	Просмотрел курс по push-notification (с ресурса swiftbook, не практиковал из-за отсутствия подписки разработчика),<br>
+•	Умение работать с гит (изучил на swiftbook)<br>
+<br>
+
+- знания С и С++;<br>
+- опыт работы с HTML5, CSS;<br>
+- опыт работы с C#, ASPNet;<br>
+- знание низкого языка программирования, ассемблера;<br>
+- базовые навыки в Photoshop;<br>
+- умение работать в программе Sketch;<br>
+      
+    </p>
+    
+    <div class="window" id="box">
+			
+			<p class = right>
+			<input type="submit" onClick="changeColor();" value="Изменить фон"/>
+                
+            </p>
+    
+    <p class = "Headings">
+    Сейчас изучаю:
+        </p>
+    <p class = "Plain_text" align="justify">
+•   Паттерн проектирования MVVM;
+</p>
+
+    <script> // Фон
+			let num= 1;
+					function changeColor(){	
+					 if (num%2==0)
+					 {
+						document.body.style.backgroundImage = "url('https://i.pinimg.com/originals/0a/72/9d/0a729d3aefd8519d95874c8073d5d2d2.jpg')";
+						num++;
+					 } else{
+						document.body.style.backgroundImage = "url('https://images.wallpaperscraft.ru/image/gradient_pastelnye_nezhnyj_165431_2560x1440.jpg')"; 
+						num++;
+					 }
+					}
+			</script>
+
+
+		<footer>
+			<center>
+		
+                <a href="#" class="botr">Вверх</a> 
+			</center>
+		</footer>
+ </body>
+</html>
