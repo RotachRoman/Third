@@ -1,0 +1,14 @@
+{
+  "name": "index",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ThirdLab.js",
+  "scripts": {
+    "test": "node ThirdLab.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
